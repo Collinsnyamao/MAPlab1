@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="title_activity_home">Activity_home</string>
+    <string name="title_activity_signup">Activity_signup</string>
+    <string name="title_activity_loginactivity">loginactivity</string>
+    <string name="signupbtn">sign up</string>
+    <string name="loginbtn">log in</string>
+    <string name="username">Enter your username...</string>
+    <string name="password">Enter your password...</string>
+    <string name="email">Enter your email</string>
+    <string name="firstname">First name...</string>
+    <string name="lastname">last name...</string>
+    <string name="confirm">Confirm password...</string>
+    <string name="ifyoudont">If you dont have an account yet, you can sign up below.</string>
+    <string name="phone">Input Phone number</string>
+    <string name="welcome">Welcome to your page...</string>
+</resources>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:id="@+id/Username"
+        android:layout_below="@+id/toolbar"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Userpassword"
+        android:hint="@string/password"
+        android:layout_below="@+id/Username"
+        android:inputType="numberPassword"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonsumbit123"
+        android:text="@string/loginbtn"
+        android:layout_below="@+id/Userpassword"
+        android:layout_centerHorizontal="true"
+        style="@style/Btndimensions"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ifyoudont"
+        android:layout_below="@+id/buttonsumbit123"
+        android:id="@+id/ifyouhave"
+        android:layout_centerHorizontal="true"
+        />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@id/ifyouhave"
+       android:text="@string/signupbtn"
+       android:id="@+id/SignupButton123"
+       style="@style/Btndimensions"
+       />
+
+</RelativeLayout>

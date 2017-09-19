@@ -1,0 +1,49 @@
+<resources>
+
+     Base application theme.
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/material_brown_400</item>
+        <item name="colorPrimaryDark">@color/material_brown_900</item>
+        <item name="colorAccent">@color/material_brown_400</item>
+        <item name="colorButtonNormal">@color/material_brown_900</item>
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="android:windowBackground">@color/material_brown_100</item>
+    </style>
+
+
+    <style name="Btndimensions">
+        <item name="android:layout_height">@dimen/butonheight</item>
+        <item name="android:layout_width">@dimen/buttonwidth</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ButtonColor" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/material_brown_900</item>
+        <item name="colorButtonNormal">@color/material_brown_900</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!--&lt;!&ndash;<style name="Edittexts">
+        <item name="android:textColor">
+            @color/material_brown_900
+        </item>
+        <item name="android:background">
+            @color/material_brown_200
+        </item>
+        <item name="colorAccent">
+            @color/material_brown_400
+        </item>
+        <item name="colorPrimary">
+            @color/material_brown_400
+        </item>&ndash;&gt;
+
+    </style>-->
+
+</resources>
